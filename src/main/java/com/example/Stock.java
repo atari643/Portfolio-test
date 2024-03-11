@@ -18,6 +18,7 @@ public class Stock {
 
    public double getPrice() {   return price;    }
    
+   public Stock getStock() { return this; }
   @Override
   public  String toString() {
 	   return name+"  "+price;

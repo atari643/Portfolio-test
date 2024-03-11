@@ -54,5 +54,6 @@ public class Portfolio {
    public void add(PortfolioLine l) {
 	 stocks.add(l); 
 	}
+	
 }
 
